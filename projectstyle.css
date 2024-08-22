@@ -1,0 +1,419 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    
+    
+}
+header{
+    margin:auto;
+}
+
+.class1{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.class12{
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    gap: 20px;
+
+}
+
+.image1{
+    height:80px;
+    width:100px;
+}
+.class13 a{
+    color:black;
+}
+.class13{
+    color: black;
+    align-items: space-evenly;
+    gap: 20px;
+    font-weight:bold;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.class1 .btn a{
+    font-weight: bold;
+    font-size: larger;
+    border: 3px solid blue;
+    padding:10px;
+    text-decoration: none;
+    color: blue;
+}
+.btn{
+    
+    text-align: right;
+}
+.class2{
+
+margin: auto;
+font-size: 20px;
+line-height: 50px;
+width: 700px;
+padding:20px 50px 20px 50px;
+text-align: center;
+}
+.heading1{
+    font-weight: bolder;
+    justify-content: center;
+}
+.para1{
+    font-size: larger;
+}
+.class3{
+    margin-block: 40px;
+    text-align: center;
+    background-color: aqua;
+}
+.class31{
+
+text-align: center;
+padding:auto;
+
+align-items: center;
+padding: 50px 20px;
+font-size: larger;
+line-height:30px;
+}
+.productpublish{
+    max-width: 1152px;
+}
+
+.productlist{
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap:wrap ;
+    list-style: none;
+    justify-content: space-between ;
+    padding: 60px 60px;
+    margin:40px 150px 0px 150px;
+    align-content:normal;
+    
+}
+li{
+   
+   margin-block: 60px;
+    align-content:normal;
+    width:300px;
+    align-items: center;
+
+}
+li img{
+    object-fit: contain;
+}
+
+
+li h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+li a{
+    color:black;
+    border: black solid 2px;
+    padding:5px;
+    text-decoration: none;
+}
+
+.heading2{
+    text-align: center;
+    margin-top: 30px;
+}
+.class4{
+    margin-block: 50px;
+
+    background-color:cadetblue;  
+}
+.class41{
+   
+text-align: center;
+padding:auto;
+
+align-items: center;
+padding: 50px 20px;
+font-size: larger;
+line-height:30px;
+
+}
+.class5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:100px 100px;
+    gap:50px;
+}
+.pic1{
+    width:100%;
+}
+.class51{
+    text-align: center;
+}
+.class51 h2{
+
+    font-size:  xx-large;
+    margin-top: 30px;
+}
+.class51 p{
+    font-size:x-large;
+    line-height: 30px;
+}
+.class51 a{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    
+}
+.class6{
+    display: flex;
+    flex-direction: row;
+    margin-block: 30px;
+    background-color: cadetblue;
+    gap:30px;
+   
+    margin: 50px 50px;
+    
+    
+}
+
+.class6 a{
+    border: 10px black solid;
+    background-color: black;
+    color:white;
+    margin: auto;
+    text-decoration: none;
+}
+
+.imagedonate{
+    width: 100px;
+    height: 100px;
+    margin-block: 30px;
+    margin-left: 10px;
+   
+}
+.class61 .class611{
+    color:blue;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.class61 .class612 {
+    color:black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.class7{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:100px;
+    gap:30px;
+}
+.imagevolunteer{
+    width: 100%;
+}
+.class71{
+    justify-content: center;
+    font-size: x-large;
+
+   margin-block: 80px;
+}
+
+.class71 a{
+    color:white;
+    border: 10px solid black;
+    background-color: black;
+    text-decoration: none;
+}
+.class8{
+    background-color:cadetblue;
+    margin-bottom: 40px;
+}
+.class8 .class81 h2{
+    text-align: center;
+}
+.class8 .class81{
+  
+    font-size: x-large;
+
+}
+.class811{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+.class8 .class81 p{
+    justify-content: center;
+}
+.class81 a{
+   text-align: center;
+    border:1px solid black;
+    color:white;
+    background-color: black;
+    text-decoration: none;
+}
+ 
+.class9 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-block: 30px;
+}
+.class91 h2{
+    font-weight:bolder;
+    font-size: xx-large;
+}
+.class91 p{
+    font-size: x-large;
+}
+.class9 .class92 a{
+    color: white;
+    border: 2px solid black;
+    background-color:black ;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+
+}
+.lastlink{
+    text-align: center;
+}
+.imageanimal{
+    text-align: center;
+}
+.imageanimal1{
+
+
+    width: 20px;
+    height: 20px;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+@media only screen and (max-width: 600px){
+
+    .class2{
+
+        margin: auto;
+       width: fit-content;
+        
+        }
+        .productpublish{
+            width: fit-content;
+            margin: auto;
+        }
+        .class5{
+            display: grid;
+            grid-template-columns: 1fr ;
+        }
+        .class6{
+            display:flex;
+            flex-direction: column;
+        }
+        .class7{
+        display:grid;
+        grid-template-columns: 1fr;
+        margin:auto;
+        }
+        .class811{
+            margin:auto;
+            
+        }
+        .class9{
+        display:grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        }
+}
+@media only screen and (min-width: 600px) {
+    .class2{
+        margin:auto;
+        width:fit-content;
+    }
+    .productpublish{
+        width: fit-content;
+        margin: auto;
+    }
+    .class5{
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .class7{
+        display:grid;
+        grid-template-columns: 1fr;
+        margin:auto;
+        }
+        .class811{
+            margin:auto;
+            
+        }
+}
+@media only screen and (min-width: 768px) {
+    .class2{
+        width: 700px;
+        padding:20px 50px 20px 50px;
+    }
+    .productpublish{
+        width: 1152px;
+        margin: auto;
+    }
+    .class5{
+
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .class7{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin:100px;
+        
+        }
+        .class811{
+            margin:auto;
+            
+        }
+}
+    
+
+
+@media only screen and (min-width: 992px) {
+    .class5{
+
+        display: grid;
+        grid-template-columns: 1fr  ;
+    }
+    .class7{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin:100px ;
+       
+        }
+        .class811{
+            margin-left: 250px;
+            margin-right: 250px;
+            
+        }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .class5{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+
